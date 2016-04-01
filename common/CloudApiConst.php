@@ -16,8 +16,8 @@ if (!interface_exists("CloudApiConst")) {
     interface CloudApiConst {
 
         // Credentials of our iHomefinder API account
-        const apiUserName = 'IWantAHome'; //your iHomefinder account username
-        const apiPassword = '2F3$1xc4'; // your iHomefinder account password;
+        const apiUserName = 'username'; //your iHomefinder account username
+        const apiPassword = 'password'; // your iHomefinder account password;
         const BULK_DATA_API = 'http://axisws.idxre.com:8080/axis2/services/IHFPartnerServices?wsdl';
         const localTimeZone = 'America/Los_Angeles';
         const thisPluginRoot = '/iwantahouse-idx-api-cron';
